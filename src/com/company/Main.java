@@ -1,12 +1,14 @@
 package com.company;
 
-import static com.company.RemisePrix.prixFinale;
-import static com.company.RemisePrix.paiement;
+import java.util.Scanner;
 
 public class Main {
+    public static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
-        paiement(20,prixFinale(50,30));
+//        Reductions.ReductionExercise();
+//        Exercice3.pret();
+//        Exercice4.Remuneration();
+        Tierce.winningOdds();
     }
-
 }
